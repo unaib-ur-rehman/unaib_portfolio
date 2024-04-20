@@ -27,7 +27,7 @@ const greeting = {
     "Creative Designer & Frontend Developer crafting captivating digital experiences. Proficient in JavaScript, React.js, Node.js, Figma, Photoshop, Illustrator and more. Let's build something extraordinary together! 🎨💻"
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1wuHqxfi0MjCtZup0nK5jJmjo6hmmjvpK/edit?usp=sharing&ouid=104911254599203273677&rtpof=true&sd=true", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -49,14 +49,20 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "SOFTWARE ENGINEER, UX ARCHITECT AND JAVASCRIPT DEVELOPER.",
   skills: [
     emoji(
-      "⚡ Develop interactive Front end / User Interfaces for your web applications"
+      "⚡ I value simple content structure, clean design patterns, and thoughtful interactions."
     ),
-    emoji("⚡ Develope efficient backend for the APIs"),
-    emoji("⚡ Integration of third party services such as Digital Ocean"),
-    emoji("⚡ Automate web applications deployment docker and kubernetes")
+    emoji(
+      "⚡ I like to code things from scratch, and enjoy bringing ideas to life in the browser."
+    ),
+    emoji(
+      "⚡ Craft engaging and intuitive user experiences for mobile & web applications."
+    ),
+    emoji(
+      "⚡ Develop interactive Front end / User Interfaces for your web applications"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -94,6 +100,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "nextjs",
       fontAwesomeClassname: require("./assets/svg/nextjs.png")
+    },
+    {
+      skillName: "flutter",
+      fontAwesomeClassname: require("./assets/svg/flutter.png")
     },
     {
       skillName: "nodejs",
@@ -168,16 +178,25 @@ const workExperiences = {
       role: "Software Engineer",
       company: "Linked Matrix",
       companylogo: require("./assets/images/lm.png"),
-      date: "december 2020 – Present",
+      date: "June 2023 – Present",
       desc: "Currently working as a fullstack python / django developer",
-      cover: require("./assets/images/lm.png")
+      cover: require("./assets/images/lm.png"),
+      descBullets: [
+        "Worked individually and collaboratively on projects centered around user research, interactive design and rapid prototyping.",
+        "Collaborated with cross-functional teams and worked on various technologies including React, Nextjs, Flutter. Worked on multiple Javascript Based Projects. Developed and maintained the company's website and web applications.",
+        "collaborated with a team of developers in an Agile environment to deliver high-quality solutions and bring designs to life"
+      ]
     },
     {
       role: "Lead Generation Expert",
       company: "Elite Techlogix",
       companylogo: require("./assets/images/elite-logo.png"),
       date: "August 2022 – May 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Responsible for generating High Quality Leads each day to meet the target Worked Collaboratively with others to meet objectives and consistently achieved weekly targets.",
+      descBullets: [
+        "Responsible for generating High Quality Leads each day to meet the target",
+        "Worked Collaboratively with others to meet objectives and consistently achieved weekly targets."
+      ]
     }
     //   {
     //     role: "Software Engineer Intern",
@@ -219,10 +238,10 @@ const bigProjects = {
           ]
         },
         {
-          image: require("./assets/images/IronClad.jpeg"),
+          image: require("./assets/images/IronClad.png"),
           projectName: "IronClaud Fitness",
           projectDesc:
-            "Build strength and confidence at our gym with state-of-the-art equipment and outstanding classes.",
+            "Build strength and confidence at our gym with state-of-the-art equipment.",
           footerLink: [
             {
               name: "Visit Website",
@@ -231,10 +250,9 @@ const bigProjects = {
           ]
         },
         {
-          image: require("./assets/images/StyleXpanse_.jpeg"),
+          image: require("./assets/images/StyleXpanse_.png"),
           projectName: "StyleXpanse",
-          projectDesc:
-            "A mobile app UI/UX design for an E-commerce store.",
+          projectDesc: "A mobile app UI/UX design for an E-commerce store.",
           footerLink: [
             {
               name: "Visit Website",
@@ -245,15 +263,14 @@ const bigProjects = {
         {
           image: require("./assets/images/Dahsboard.png"),
           projectName: "Student Management Dashboard",
-          projectDesc:
-            "A dashboard for managing students and their data.",
+          projectDesc: "A dashboard for managing students and their data.",
           footerLink: [
             {
               name: "Visit Website",
-              url: "",
+              url: ""
             }
           ]
-        },
+        }
         // Add more projects here
       ]
     },
@@ -261,74 +278,61 @@ const bigProjects = {
       name: "Graphic Design",
       projects: [
         {
-          image: require("./assets/images/nextuLogo.webp"),
-          projectName: "Nextu",
+          image: require("./assets/images/NS.png"),
+          projectName: "Natural Sense",
           projectDesc:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "A Brand Identity for a Natural and Organic Products Company.",
           footerLink: [
             {
               name: "Visit Website",
-              url: "http://nextu.se/"
+              url: "https://www.behance.net/gallery/190916457/Organic-Natural-Logo-Design-Branding/"
             }
           ]
         },
         {
-          image: require("./assets/images/saayaHealthLogo.webp"),
-          projectName: "Saayahealth",
-          projectDesc:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+          image: require("./assets/images/silklocks.jpeg"),
+          projectName: "Silk Locks",
+          projectDesc: "A Brand Logo Design for a Hair Care Products Company.",
           footerLink: [
             {
               name: "Visit Website",
-              url: "http://saayahealth.com/"
+              url: ""
             }
           ]
         },
         {
-          image: require("./assets/images/nextuLogo.webp"),
-          projectName: "Nextu",
+          image: require("./assets/images/ASH.png"),
+          projectName: "ASH Perfume",
           projectDesc:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "A Brand Identity for a Perfume Company.",
           footerLink: [
             {
               name: "Visit Website",
-              url: "http://nextu.se/"
+              url: ""
             }
           ]
         },
-        {
-          image: require("./assets/images/saayaHealthLogo.webp"),
-          projectName: "Saayahealth",
-          projectDesc:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-          footerLink: [
-            {
-              name: "Visit Website",
-              url: "http://saayahealth.com/"
-            }
-          ]
-        }
         // Add more projects here
       ]
     },
-    {
-      name: "Development",
-      projects: [
-        {
-          image: require("./assets/images/nextuLogo.webp"),
-          projectName: "Nextu",
-          projectDesc:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-          footerLink: [
-            {
-              name: "Visit Website",
-              url: "http://nextu.se/"
-            }
-          ]
-        }
-        // Add more projects here
-      ]
-    }
+    // {
+    //   name: "Development",
+    //   projects: [
+    //     {
+    //       image: require("./assets/images/IronClad.png"),
+    //       projectName: "",
+    //       projectDesc:
+    //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //       footerLink: [
+    //         {
+    //           name: "Visit Website",
+    //           url: "http://nextu.se/"
+    //         }
+    //       ]
+    //     }
+    //     // Add more projects here
+    //   ]
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -342,54 +346,54 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
-    {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
+    // {
+    //   title: "Google Code-In Finalist",
+    //   subtitle:
+    //     "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+    //   image: require("./assets/images/codeInLogo.webp"),
+    //   imageAlt: "Google Code-In Logo",
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+    //     },
+    //     {
+    //       name: "Award Letter",
+    //       url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+    //     },
+    //     {
+    //       name: "Google Code-in Blog",
+    //       url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+    //     }
+    //   ]
+    // },
+    // {
+    //   title: "Google Assistant Action",
+    //   subtitle:
+    //     "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+    //   image: require("./assets/images/googleAssistantLogo.webp"),
+    //   imageAlt: "Google Assistant Action Logo",
+    //   footerLink: [
+    //     {
+    //       name: "View Google Assistant Action",
+    //       url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+    //     }
+    //   ]
+    // },
 
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
+    // {
+    //   title: "PWA Web App Developer",
+    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+    //   image: require("./assets/images/pwaLogo.webp"),
+    //   imageAlt: "PWA Logo",
+    //   footerLink: [
+    //     {name: "Certification", url: ""},
+    //     {
+    //       name: "Final Project",
+    //       url: "https://pakistan-olx-1.firebaseapp.com/"
+    //     }
+    //   ]
+    // }
   ],
   display: false // Set false to hide this section, defaults to true
 };
@@ -452,7 +456,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3064451906",
+  number: "+92-3354479734",
   email_address: "unaiburrehman31@gmail.com"
 };
 

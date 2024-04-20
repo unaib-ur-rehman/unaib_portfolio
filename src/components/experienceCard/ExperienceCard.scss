@@ -26,10 +26,6 @@
   background-size: 150%;
   background: $experienceCardBannerLG;
   border-radius: 10px 10px 0px 0px;
-  -webkit-filter: blur(0px);
-  -moz-filter: blur(0px);
-  -o-filter: blur(0px);
-  -ms-filter: blur(0px);
   filter: blur(0px);
   height: 11rem;
   display: flex;
@@ -40,10 +36,6 @@
 .experience-blurred_div {
   position: absolute;
   background: $experienceCardBlurredDivLG;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
   filter: blur(5px);
   height: 11rem;
   top: 0;
@@ -100,9 +92,16 @@
   padding-top: 1.5rem;
   line-height: normal;
 }
+
 .dark-mode-text {
   color: $textColorDark !important;
+  margin-top: 15px;
 }
+
+.subTitle {
+  margin-bottom: 15px;
+}
+
 .experience-text-date {
   text-align: center;
   color: $textColor;

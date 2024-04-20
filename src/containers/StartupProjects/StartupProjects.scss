@@ -32,12 +32,13 @@
   color: $cardSubtitle;
   font-size: 17px;
   line-height: 1.5rem;
+  padding: 0 4px;
 }
 .project-card {
   display: flex;
   flex-direction: column;
   background-color: $lightBackground2;
-  padding: 0 15px;
+  // padding: 0 15px;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
   justify-content: center;
@@ -77,7 +78,7 @@
   position: relative;
   top: -5px;
   object-fit: cover;
-  width: 375px;
+  width: 100%;
   overflow: hidden;
   display: flex;
   justify-content: center;

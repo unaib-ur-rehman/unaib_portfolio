@@ -26,8 +26,7 @@ const greeting = {
   subTitle: emoji(
     "Creative Designer & Frontend Developer crafting captivating digital experiences. Proficient in JavaScript, React.js, Node.js, Figma, Photoshop, Illustrator and more. Let's build something extraordinary together! 🎨💻"
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -303,18 +302,17 @@ const bigProjects = {
         {
           image: require("./assets/images/ASH.png"),
           projectName: "ASH Perfume",
-          projectDesc:
-            "A Brand Identity for a Perfume Company.",
+          projectDesc: "A Brand Identity for a Perfume Company.",
           footerLink: [
             {
               name: "Visit Website",
               url: ""
             }
           ]
-        },
+        }
         // Add more projects here
       ]
-    },
+    }
     // {
     //   name: "Development",
     //   projects: [
@@ -380,7 +378,6 @@ const achievementSection = {
     //     }
     //   ]
     // },
-
     // {
     //   title: "PWA Web App Developer",
     //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",

@@ -14,7 +14,12 @@ export default function SoftwareSkill() {
                 className="software-skill-inline"
                 name={skills.skillName}
               >
-                <img src={skills.fontAwesomeClassname} alt="" height={40} width={40} />
+                <img
+                  src={skills.fontAwesomeClassname}
+                  alt=""
+                  height={40}
+                  width={40}
+                />
                 <p>{skills.skillName}</p>
               </li>
             );

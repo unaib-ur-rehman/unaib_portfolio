@@ -288,17 +288,17 @@ const bigProjects = {
             }
           ]
         },
-        {
-          image: require("./assets/images/silklocks.jpeg"),
-          projectName: "Silk Locks",
-          projectDesc: "A Brand Logo Design for a Hair Care Products Company.",
-          footerLink: [
-            {
-              name: "Visit Website",
-              url: ""
-            }
-          ]
-        },
+        // {
+        //   image: require("./assets/images/silklocks.jpeg"),
+        //   projectName: "Silk Locks",
+        //   projectDesc: "A Brand Logo Design for a Hair Care Products Company.",
+        //   footerLink: [
+        //     {
+        //       name: "Visit Website",
+        //       url: ""
+        //     }
+        //   ]
+        // },
         {
           image: require("./assets/images/ASH.png"),
           projectName: "ASH Perfume",

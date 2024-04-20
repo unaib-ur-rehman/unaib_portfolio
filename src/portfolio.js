@@ -261,7 +261,7 @@ const bigProjects = {
         },
         {
           image: require("./assets/images/Dahsboard.png"),
-          projectName: "Student Management Dashboard",
+          projectName: "Student's Dashboard",
           projectDesc: "A dashboard for managing students and their data.",
           footerLink: [
             {

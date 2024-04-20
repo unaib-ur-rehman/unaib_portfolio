@@ -1,4 +1,5 @@
 # unaib_portfolio
+
 Software Developer Portfolio ⚡️
 
 ## A clean, beautiful and responsive portfolio template for Developers!
@@ -274,3 +275,8 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 - Add Dark Mode
 
 Thanks for reading this. If you found this useful, please don't forget to ⭐️ the repo.
+
+```
+"format": "prettier --write \"./**/*.{js,css,json,scss}\"",
+"check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
+```

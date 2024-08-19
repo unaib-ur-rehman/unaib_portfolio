@@ -212,7 +212,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -273,46 +273,46 @@ const bigProjects = {
         // Add more projects here
       ]
     },
-    {
-      name: "Graphic Design",
-      projects: [
-        {
-          image: require("./assets/images/NS.png"),
-          projectName: "Natural Sense",
-          projectDesc:
-            "A Brand Identity for a Natural and Organic Products Company.",
-          footerLink: [
-            {
-              name: "Visit Website",
-              url: "https://www.behance.net/gallery/190916457/Organic-Natural-Logo-Design-Branding/"
-            }
-          ]
-        },
-        // {
-        //   image: require("./assets/images/silklocks.jpeg"),
-        //   projectName: "Silk Locks",
-        //   projectDesc: "A Brand Logo Design for a Hair Care Products Company.",
-        //   footerLink: [
-        //     {
-        //       name: "Visit Website",
-        //       url: ""
-        //     }
-        //   ]
-        // },
-        {
-          image: require("./assets/images/ASH.png"),
-          projectName: "ASH Perfume",
-          projectDesc: "A Brand Identity for a Perfume Company.",
-          footerLink: [
-            {
-              name: "Visit Website",
-              url: ""
-            }
-          ]
-        }
-        // Add more projects here
-      ]
-    }
+    // {
+    //   name: "Graphic Design",
+    //   projects: [
+    //     {
+    //       image: require("./assets/images/NS.png"),
+    //       projectName: "Natural Sense",
+    //       projectDesc:
+    //         "A Brand Identity for a Natural and Organic Products Company.",
+    //       footerLink: [
+    //         {
+    //           name: "Visit Website",
+    //           url: "https://www.behance.net/gallery/190916457/Organic-Natural-Logo-Design-Branding/"
+    //         }
+    //       ]
+    //     },
+    //     // {
+    //     //   image: require("./assets/images/silklocks.jpeg"),
+    //     //   projectName: "Silk Locks",
+    //     //   projectDesc: "A Brand Logo Design for a Hair Care Products Company.",
+    //     //   footerLink: [
+    //     //     {
+    //     //       name: "Visit Website",
+    //     //       url: ""
+    //     //     }
+    //     //   ]
+    //     // },
+    //     {
+    //       image: require("./assets/images/ASH.png"),
+    //       projectName: "ASH Perfume",
+    //       projectDesc: "A Brand Identity for a Perfume Company.",
+    //       footerLink: [
+    //         {
+    //           name: "Visit Website",
+    //           url: ""
+    //         }
+    //       ]
+    //     }
+    //     // Add more projects here
+    //   ]
+    // }
     // {
     //   name: "Development",
     //   projects: [

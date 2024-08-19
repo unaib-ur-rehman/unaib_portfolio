@@ -24,7 +24,9 @@ const greeting = {
   image: require("./assets/images/logo-sec.png"),
   title: "Hi all, I'm Unaib",
   subTitle: emoji(
-    "Creative Designer & Frontend Developer crafting captivating digital experiences. Proficient in JavaScript, React.js, Node.js, Figma, Photoshop, Illustrator and more. Let's build something extraordinary together! 🎨💻"
+
+    "Creative Designer & Frontend Developer crafting captivating digital experiences. I specialize in solving design challenges, creating intuitive user interfaces, and developing dynamic web experiences. Outside of work, I’m passionate about cricket, football, entrepreneurship, and good food. Proficient in JavaScript, React.js, Node.js, Figma, Photoshop, Illustrator and more! 🎨💻"
+
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -51,17 +53,17 @@ const skillsSection = {
   subTitle: "SOFTWARE ENGINEER, UX ARCHITECT AND JAVASCRIPT DEVELOPER.",
   skills: [
     emoji(
-      "⚡ I value simple content structure, clean design patterns, and thoughtful interactions."
-    ),
-    emoji(
-      "⚡ I like to code things from scratch, and enjoy bringing ideas to life in the browser."
+      "⚡ Develop interactive Front end / User Interfaces for your web applications"
     ),
     emoji(
       "⚡ Craft engaging and intuitive user experiences for mobile & web applications."
     ),
     emoji(
-      "⚡ Develop interactive Front end / User Interfaces for your web applications"
-    )
+      "⚡ I value simple content structure, clean design patterns, and thoughtful interactions."
+    ),
+    emoji(
+      "⚡ I like to code things from scratch, and enjoy bringing ideas to life in the browser."
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -154,7 +156,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
       Stack: "UI/UX Design",
@@ -162,7 +164,7 @@ const techStack = {
     },
     {
       Stack: "Graphics & Design",
-      progressPercentage: "87%"
+      progressPercentage: "85%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false

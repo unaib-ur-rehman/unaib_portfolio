@@ -24,9 +24,7 @@ const greeting = {
   image: require("./assets/images/logo-sec.png"),
   title: "Hi all, I'm Unaib",
   subTitle: emoji(
-
     "Creative Designer & Frontend Developer crafting captivating digital experiences. I specialize in solving design challenges, creating intuitive user interfaces, and developing dynamic web experiences. Outside of work, I’m passionate about cricket, football, entrepreneurship, and good food. Proficient in JavaScript, React.js, Node.js, Figma, Photoshop, Illustrator and more! 🎨💻"
-
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -59,11 +57,11 @@ const skillsSection = {
       "⚡ Craft engaging and intuitive user experiences for mobile & web applications."
     ),
     emoji(
-      "⚡ I value simple content structure, clean design patterns, and thoughtful interactions."
-    ),
-    emoji(
       "⚡ I like to code things from scratch, and enjoy bringing ideas to life in the browser."
     ),
+    emoji(
+      "⚡ I value simple content structure, clean design patterns, and thoughtful interactions."
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -83,6 +81,22 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: require("./assets/svg/javascript.png")
     },
     {
+      skillName: "reactjs",
+      fontAwesomeClassname: require("./assets/svg/react.png")
+    },
+    {
+      skillName: "nextjs",
+      fontAwesomeClassname: require("./assets/svg/nextjs.png")
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: require("./assets/svg/node.png")
+    },
+    {
+      skillName: "expressjs",
+      fontAwesomeClassname: require("./assets/svg/expressjs.png")
+    },
+    {
       skillName: "figma",
       fontAwesomeClassname: require("./assets/svg/figma.png")
     },
@@ -95,24 +109,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: require("./assets/svg/illustrator.png")
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: require("./assets/svg/react.png")
-    },
-    {
-      skillName: "nextjs",
-      fontAwesomeClassname: require("./assets/svg/nextjs.png")
-    },
-    {
       skillName: "flutter",
       fontAwesomeClassname: require("./assets/svg/flutter.png")
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: require("./assets/svg/node.png")
-    },
-    {
-      skillName: "expressjs",
-      fontAwesomeClassname: require("./assets/svg/expressjs.png")
     },
     {
       skillName: "docker",
@@ -156,15 +154,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "95%" //Insert relative proficiency in percentage
     },
     {
       Stack: "UI/UX Design",
-      progressPercentage: "90%"
+      progressPercentage: "85%"
     },
     {
       Stack: "Graphics & Design",
-      progressPercentage: "85%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -274,7 +272,7 @@ const bigProjects = {
         }
         // Add more projects here
       ]
-    },
+    }
     // {
     //   name: "Graphic Design",
     //   projects: [

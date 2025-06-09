@@ -39,10 +39,6 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button
-                  text="CONTACT ME"
-                  href="https://api.whatsapp.com/send?phone=+92-3354479734&text=Hello%20Unaib-ur-Rehman%20I%20found%20your%20portfolio%20and%20I%20want%20to%20talk%about%20a%20project."
-                />
                 {greeting.resumeLink && (
                   <Button
                     text="See my resume"
@@ -50,6 +46,10 @@ export default function Greeting() {
                     href={greeting.resumeLink}
                   />
                 )}
+                <Button
+                  text="CONTACT ME"
+                  href="https://api.whatsapp.com/send?phone=+92-3354479734&text=Hello%20Unaib-ur-Rehman%20I%20found%20your%20portfolio%20and%20I%20want%20to%20talk%about%20a%20project."
+                />
               </div>
             </div>
           </div>

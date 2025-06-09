@@ -54,9 +54,9 @@ const Main = () => {
             <Skills />
             <StackProgress />
             {/* <Education /> */}
+            <StartupProject />
             <Projects />
             <WorkExperience />
-            <StartupProject />
             <Achievement />
             <Blogs />
             <Talks />

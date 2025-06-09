@@ -26,7 +26,7 @@ const greeting = {
   subTitle: emoji(
     "Creative Designer & Frontend Developer crafting captivating digital experiences. I specialize in solving design challenges, creating intuitive user interfaces, and developing dynamic web experiences. Outside of work, I’m passionate about cricket, football, entrepreneurship, and good food. Proficient in JavaScript, React.js, Node.js, Figma, Photoshop, Illustrator and more! 🎨💻"
   ),
-  resumeLink: "", // Set to empty to hide the button
+  resumeLink: "https://drive.google.com/file/d/1OhkCu6S5r8N_D9dvHi_mKWbYwMh3KDs9/view?usp=sharing", // Add your resume link here
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -226,13 +226,48 @@ const bigProjects = {
       name: "UI/UX Design",
       projects: [
         {
-          image: require("./assets/images/TAP.png"),
-          projectName: "TAP Store",
-          projectDesc: "The Auto Parts. An Ecommerce autoparts store",
+          image: require("./assets/images/estate-block.png"),
+          projectName: "Estate Block",
+          projectDesc:
+            "A Real Estate Website Design for a Real Estate Company.",
           footerLink: [
             {
               name: "Visit Website",
-              url: "https://www.behance.net/gallery/178547107/Auto-Parts-Online-Store-Website"
+              url: ""
+            }
+          ]
+        },
+        {
+          image: require("./assets/images/Parwana.jpg"),
+          projectName: "Parwana",
+          projectDesc: "A SEO tool for analyzing website performance.",
+          footerLink: [
+            {
+              name: "Visit Website",
+              url: ""
+            }
+          ]
+        },
+        {
+          image: require("./assets/images/HSE.png"),
+          projectName: "HSE",
+          projectDesc:
+            "An app design for a Health, Safety and Environment company.",
+          footerLink: [
+            {
+              name: "Visit Website",
+              url: ""
+            }
+          ]
+        },
+        {
+          image: require("./assets/images/StyleXpanse_.png"),
+          projectName: "StyleXpanse",
+          projectDesc: "A mobile app UI/UX design for an E-commerce store.",
+          footerLink: [
+            {
+              name: "Visit Website",
+              url: "https://www.behance.net/gallery/177902939/E-commerce-App-Design-iOS-Shopping-App"
             }
           ]
         },
@@ -249,13 +284,13 @@ const bigProjects = {
           ]
         },
         {
-          image: require("./assets/images/StyleXpanse_.png"),
-          projectName: "StyleXpanse",
-          projectDesc: "A mobile app UI/UX design for an E-commerce store.",
+          image: require("./assets/images/TAP.png"),
+          projectName: "TAP Store",
+          projectDesc: "The Auto Parts. An Ecommerce autoparts store",
           footerLink: [
             {
               name: "Visit Website",
-              url: "https://www.behance.net/gallery/177902939/E-commerce-App-Design-iOS-Shopping-App"
+              url: "https://www.behance.net/gallery/178547107/Auto-Parts-Online-Store-Website"
             }
           ]
         },

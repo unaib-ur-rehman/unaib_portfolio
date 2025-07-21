@@ -26,7 +26,8 @@ const greeting = {
   subTitle: emoji(
     "Creative Designer & Frontend Developer crafting captivating digital experiences. I specialize in solving design challenges, creating intuitive user interfaces, and developing dynamic web experiences. Outside of work, I’m passionate about cricket, football, entrepreneurship, and good food. Proficient in JavaScript, React.js, Node.js, Figma, Photoshop, Illustrator and more! 🎨💻"
   ),
-  resumeLink: "https://drive.google.com/file/d/1OhkCu6S5r8N_D9dvHi_mKWbYwMh3KDs9/view?usp=sharing", // Add your resume link here
+  // resumeLink: "https://drive.google.com/file/d/1OhkCu6S5r8N_D9dvHi_mKWbYwMh3KDs9/view?usp=sharing", // Add your resume link here
+  resumeLink: "https://drive.google.com/file/d/1te64w4VrPu7T_Yk39NZjXXMDToTT6Mn5/view?usp=sharing", // Add your resume link here
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
